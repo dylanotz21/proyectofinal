@@ -1,0 +1,137 @@
+/* importamos las fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&family=Yellowtail&display=swap');
+
+* {
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100%;
+    background-image: linear-gradient(to bottom, #a069ff, #000f80);
+}
+
+/*SECCION INICIO*/
+.inicio {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
+        url("../img/fondo.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.inicio .contenido-seccion {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.inicio .contenido-seccion header {
+    padding: 15px;
+    display: flex;
+    justify-content: end;
+}
+
+.nav {
+    margin-right: 10px;
+    text-align: end;
+}
+
+a {
+    color: #d3d8e6;
+    text-decoration: none;
+}
+
+/* menu lateral */
+.inicio.contenido-seccion header nav {
+    position: fixed;
+    margin-left: 60px;
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 50px;
+    text-align: center;
+    z-index: 99;
+}
+
+.inicio.contenido-seccion header nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: none;
+    font font-weight: bold;
+}
+
+.wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.foto {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.sectionSobreMi {
+    padding: 5px;
+    display: flex;
+}
+
+.sobreMi {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.imgContent {
+    padding: 10px;
+}
+
+p {
+   font-size: 14px;
+   text-align: left;
+}
+
+.Habilidades {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.Contacto {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.sectionSobreMi {
+    padding: 5px;
+    display: flex;
+}
+
+.contactoText {
+    padding: 10px;
+    text-align: end;
+}
+
+.collapsible {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .active, .collapsible:hover {
+    background-color: #fff;
+  }
+
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  }
